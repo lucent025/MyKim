@@ -11,11 +11,15 @@
         margin: 0;
       }
     </style>
+    <script type="module" src="orbit.js"></script>
   </head>
   <body>
-    <audio autoplay loop>
-      <source src="BM/i-really-want-to-stay-at-your-house.mp3" type="audio/mpeg">
+    <audio preload="auto" autoplay>
+      <source
+        src="/BM/i-really-want-to-stay-at-your-house.mp3"
+        type="audio/mpeg"
+      />
+      This text displays if the audio tag isn't supported.
     </audio>
   </body>
 </html>
-<script type="module" src="orbit.js"></script>

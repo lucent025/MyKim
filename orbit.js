@@ -114,3 +114,4 @@ renderer.setAnimationLoop(() => {
   p.rotation.y = t * 0.05;
   renderer.render(scene, camera);
 });
+
